@@ -112,13 +112,13 @@
         </div>
             <p class="infos-carte">
                 
-                Salle Libre
+                Salle Libre<br>Lundi au Vendredi<br>8h - 22h
             </p>
             
             
-            <p class="infos-carte">
+            <p class="infos-carte" style="margin-left: 110px;">
                 
-                CrossFit
+                      CrossFit
             </p>
             
         </div>
@@ -127,16 +127,16 @@
         <div class="carte-tarif">
             <h3>COMPLET</h3>
             <p class="prix-carte"><span>40</span>/mois</p>
-            <p class="infos-carte">
-                Salle Libre 
+            <p class="infos-carte" style="margin-left: 80px;">
+                Salle Libre 7/7 <br>8h - 22h
             </p>
             
-            <p class="infos-carte">
+            <p class="infos-carte" style="margin-left: 120px;">
                 
                 Coach
             </p>
             
-            <p class="infos-carte">
+            <p class="infos-carte" style="margin-left: 110px;">
                 CrossFit
             </p>
             <p class="infos-carte">
@@ -149,22 +149,18 @@
             <h3>PRO</h3>
             <p class="prix-carte"><span>60</span>/mois</p>
             <p class="infos-carte">
-                
-                Salle Libre
+                Salle Libre  24h/24
             </p>
-            <p class="infos-carte">
-                
-                24h/24
-            </p>
-            <p class="infos-carte">
+            
+            <p class="infos-carte" style="margin-left: 115px; padding-bottom: 10px;">
                 
                 Coach
             </p>
-            <p class="infos-carte">
+            <p class="infos-carte" style="margin-left: 110px; padding-bottom: 10px;">
                 
                 CrossFit
             </p>
-            <p class="infos-carte">
+            <p class="infos-carte" style="margin-left: 110px; padding-bottom: 10px;">
                 
                 Massage
             </p>
@@ -173,12 +169,11 @@
     </section>
 <!----------------------- fin section tarif --------------------------->
 <!--------------------- Section formulaire --------------------------->
-
+<form method="post" action="contact.php">
     <h2 class="titre-connecter">Se Connecter</h2>
 
-    <section id="connecter">
 
-        <form method="post" action="contact.php">
+    <section id="Connecter">
 
             <label for="prenom">PRENOM</label>
             <input type="text" id="prenom" placeholder="Saisissez votre prénom" required>
@@ -189,11 +184,18 @@
             <label for="txt-area">MESSAGE</label>
             <textarea  id="txt-area"></textarea>
 
-            <button class="form-btn" type="submit">Envoyer</button>
+            
+            <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  
+  <button class="form-btn" type="submit">Envoyer</button>
         </form>
 
 
-    </sector>
+    </section>
+
     <!----fin section contact --------------------------->
 <!------------Section les clubs------------------------------->
 <section id="lesClubs">
