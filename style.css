@@ -448,7 +448,7 @@ h1 {
 }
 
 form {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   height: 0 auto;
   display: flex;
@@ -456,7 +456,11 @@ form {
   align-items: flex-start;
   flex-direction: column;
   position: relative;
-  background-color: aqua;
+  background: aqua;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  min-width: 300px;
+  margin: 0 auto 100px;
 }
 
 label, input {
@@ -499,16 +503,12 @@ label:nth-child(5){
   flex-direction: column;
   align-items: center;
 }
+.titre-connecter {
+  font-size: 35px;
+}
 }
 /* ---------------fin formulaire ------------------------------------*/
 
-.wrapper {
- display: flex;
- flex-direction: column;
- align-items: center;
- margin-top: -150px;
- 
-}
 
 
 table, th, td {
