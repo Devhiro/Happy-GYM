@@ -182,10 +182,11 @@ h1 {
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 .accueil {
   height: 600px;
-  width: 60%;
+  width: 100%;
+  margin: 0 auto;
 }
 h1 {
   font-size: 50px;
