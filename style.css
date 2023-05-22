@@ -347,12 +347,12 @@ h1 {
 }
 
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 992px){
 .titre-equipements {
   font-size: 45px ;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 576px){
 .titre-equipements {
   font-size: 35px ;
 }
@@ -436,7 +436,23 @@ h1 {
   margin-right: 7px;
   width: 20px;
 }
+@media screen and (max-width: 1077px) {
+  .carte-tarif {
+    width: 80%;
+  }
+  
+}
+@media screen and (max-width: 1077px) {
+ .row-cols-md-2 {
+  justify-content: center;
+ }
+}
 
+@media screen and (max-width: 754px) {
+  .carte-tarif {
+    max-width: 350px;
+  }
+}
 /* ------------------fin section tarif ----------------------------------*/
 /*------------------- Section formulaire ---------------------------------*/
 
@@ -497,15 +513,24 @@ label:nth-child(5){
   border: 1px solid #333;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 992px){
 #contact {
-  width: 80%;
   flex-direction: column;
   align-items: center;
 }
 .titre-connecter {
   font-size: 35px;
 }
+form {
+  min-width: 80%;
+  justify-content: center;
+}
+}
+@media screen and (max-width: 576px) {
+  form {
+    min-width: 100%;
+    justify-content: center;
+  }
 }
 /* ---------------fin formulaire ------------------------------------*/
 
