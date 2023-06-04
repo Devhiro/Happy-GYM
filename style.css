@@ -30,7 +30,10 @@ nav {
   background: white;
   transition: background-color 0.3s ease-in-out,
   border-bottom 0.3s ease-in-out;
+}
 
+navbar {
+  position: fixed;
 }
 nav.anim-nav {
   background: #000;
